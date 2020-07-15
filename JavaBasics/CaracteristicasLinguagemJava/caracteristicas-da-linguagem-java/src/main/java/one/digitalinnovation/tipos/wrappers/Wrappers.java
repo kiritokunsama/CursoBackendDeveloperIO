@@ -1,12 +1,14 @@
 package one.digitalinnovation.tipos.wrappers;
 
 public class Wrappers {
+    // São objetos que representam os tipos primitivos
 
     public static void main(String[] args) {
         //Autoboxing
-
+        //Observar a letra maiuscula em "Byte", indicando que é uma classe
         Byte b = 127;   //byte
         Byte b2 = -128;
+        //Por serem objetos, agora podemos atribuit o valou "null" a eles
         Byte nullByte = null;
 
         Character c = 'A'; //char

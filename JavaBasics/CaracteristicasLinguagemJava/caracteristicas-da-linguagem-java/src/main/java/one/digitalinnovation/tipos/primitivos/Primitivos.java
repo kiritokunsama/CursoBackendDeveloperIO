@@ -1,7 +1,19 @@
 package one.digitalinnovation.tipos.primitivos;
 
 public class Primitivos {
-
+    // Tipos primitivos nunca podem ser nulos
+    // Possuem valores Default
+    /*
+    byte ------------------------------- 0
+    short ------------------------------ 0
+    int -------------------------------- 0
+    long ------------------------------- 0L
+    float ------------------------------ 0.0f
+    double ----------------------------- 0.0d
+    char ------------------------------- '\u0000'
+    String (ou qualquer objeto) -------- null
+    boolean ---------------------------- false
+    */
     public static void main(String[] args) {
         //INTEIROS
 
@@ -42,7 +54,7 @@ public class Primitivos {
         double d2 = 10.2456; // 4.9 E-324
 
         //Boleano
-
+        // se escritos com "" ou '' são string, não boleanos
         boolean bo = true;
         boolean bo2 = false;
         //boolean bo3 = "false";  //NOK
@@ -51,9 +63,13 @@ public class Primitivos {
 
         //void v; //palavra reservada
 
-
+        //b esta declarado, mas não inicializado. Logo não podemos usa-lo
         //System.out.println("byte : " + b); //ERROR
 
     }
+
+
+
+
 
 }

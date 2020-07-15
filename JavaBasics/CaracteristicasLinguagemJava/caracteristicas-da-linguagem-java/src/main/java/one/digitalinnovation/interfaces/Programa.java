@@ -19,7 +19,7 @@ public class Programa {
 
         fiesta.ligar();
 
-        //Carro.super.ligar(); //só pode ser acessado por que implementa
+        //Carro.super.ligar(); //só pode ser acessado por quem implementa
     }
 
 }

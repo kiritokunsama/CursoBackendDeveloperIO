@@ -1,5 +1,11 @@
 package one.digitalinnovation.enums;
-
+/*
+ENUM é um dicionario de dados imuável.
+Não é premitido criar novas instâncias
+O Construtor é sempre declarado como "private"
+Por convenção, por serem objetos constantes e imutaveis (static final),
+os nomes são em MAIÚSCULO.
+*/
 public enum Status {
     OPEN(13, "Aberto"),
     CLOSE(02, "Fechado");

@@ -22,7 +22,6 @@ public class Fiesta implements Carro, Veiculo {
         //codigo
 
         Carro.super.ligar();
-
         Veiculo.super.ligar();
     }
 }

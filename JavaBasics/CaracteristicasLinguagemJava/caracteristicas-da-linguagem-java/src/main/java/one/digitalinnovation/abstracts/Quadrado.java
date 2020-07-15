@@ -5,9 +5,9 @@ public class Quadrado extends FormaGeometrica {
     private String nome;
     private Double area;
 
-    public Quadrado(final String nome, final Double area) {
+    public Quadrado(final String nome, final Double lado1,final Double lado2) {
         this.nome = nome;
-        this.area = area;
+        this.area = lado1 * lado2;
     }
 
     @Override

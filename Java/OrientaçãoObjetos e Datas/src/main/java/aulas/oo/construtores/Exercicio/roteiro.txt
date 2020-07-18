@@ -1,0 +1,8 @@
+Criar classe Carro com os atributos:
+Marca --> String
+Modelo --> String
+Ano --> Integer
+Variante --> String
+
+Essa classe deve garantir que Modelo, Marca e Ano
+sempre sejam passadas na hora de instanciar um objeto.

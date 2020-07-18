@@ -1,0 +1,5 @@
+criar classe fuincionario
+Gerente : 0,1%
+Supervisor : 0,05%
+Atendente : 0,01%
+Cada tipo tem uma politica diferente de imposto
